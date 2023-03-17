@@ -1,0 +1,206 @@
+:root {
+    --dark: #333;
+    --light: whitesmoke;
+    --danger: red  ;
+    --warning: gold ;
+    --new: rgb(100, 250, 100);
+  }
+.bg-dark {
+    background-color: var(--dark);
+}
+.bg-light {
+    background-color: var(--light);
+}
+.bg-danger {
+    background-color: red;
+}
+.bg-warning {
+    background-color: var(--warning);
+}
+.bg-new {
+    background-color: var(--new);
+}
+.text-dark {
+    color: var(--dark) !important;
+}
+.text-light {
+    color: var(--light);
+}
+.sub-heading, nav,.card-container, header ,footer,section{
+    min-width: 320px;
+}
+a:hover {
+    opacity: 75;
+    
+}
+header  {
+    width: 100%;
+    height: 60vh;
+    background-image: url(img/Stacks.png);
+    background-size: cover;
+}
+header img {
+    width: 100%;
+}
+/*                                              CARDS*/
+/*                                              CARDS*/
+/*                                              CARDS*/
+/*                                              CARDS*/
+/*                                              CARDS*/
+.card-container {
+    padding: 2rem 2rem;
+}
+@media (max-width: 380px){
+    .card-container {
+        padding: 2rem 0;
+    }
+}
+.card1 {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 260px;
+    min-width: 240px;
+}
+.card1-content-bottom a:hover {
+    opacity: 90%;
+}
+.price {
+    top: -1rem;
+}
+@media (max-width: 575px){
+
+    .card1-cover {
+        height: 40%;
+        width: 100%;
+        background-image: linear-gradient(var(--dark), var(--light));
+    }
+    .card1-cover img {
+        width: 50%;
+    }
+    .card1-content {
+        height: 60%;
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    .card1 {
+        width: 500px;
+        height: 400px;
+    }
+    .card1-cover {
+        width: 40%;
+        height: 100%;
+        background-image: linear-gradient(to right,var(--dark), var(--light));
+    }
+    .card1-cover img {
+        width: 50%;
+    }
+    .card1-content {
+        width: 60%;
+        height: 100%;
+    }
+    .card1-content-top {
+        width: 100%;
+        height: 60%;
+    }
+    .card1-content-bottom   {
+        width: 100%;
+        height: 40%;
+    }
+}
+.card1-content-top {
+    width: 100%;
+    height: 80%;
+}
+.card1-content-bottom   {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+}
+
+span.tags span  {
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 2px 3px;
+}
+/*                                                  SECTION */
+/*                                                  SECTION */
+/*                                                  SECTION */
+/*                                                  SECTION */
+/*                                                  SECTION */
+/*                                                  SECTION */
+
+section a {
+    text-decoration: none;
+    color: var(--light);
+}
+section a:hover {
+    color: rgba(245, 245, 245, 0.548);
+}
+/*                                                  FOOTER */
+/*                                                  FOOTER */
+/*                                                  FOOTER */
+/*                                                  FOOTER */
+/*                                                  FOOTER */
+
+
+/*                                                  CHECKOUT */
+/*                                                  CHECKOUT */
+/*                                                  CHECKOUT */
+/*                                                  CHECKOUT */
+/*                                                  CHECKOUT */
+/*                                                  CHECKOUT */
+a.back:hover {
+    top: 1px !important;
+    left: 2px !important; 
+}
+.checkout {
+    display: none;
+}
+.back-btn {
+    top: 2px;
+    left: 2px;
+
+}
+.back-btn:hover {
+    top: 3px;
+    left: 2px;
+}
+nav , {
+    min-width: 320px;
+}
+@media  (min-width: 768px) {
+    .navbar-brand {
+        margin-left: 2rem;
+    }
+    .checkout {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+.form-container {
+    min-width: 320px;
+}
+.form-control.name {
+    max-width: 250px;
+}
+.row.name {
+    min-width: 320px;
+}
+.name {
+    height: 3rem;
+}
+.email-address1 {
+    padding-right: 14px;
+}
+.contact-number {
+    padding-right: 14px;
+}
+.address1 {
+    padding-right: 14px;
+}
+.card-type {
+    padding: 0 0 0 10px;
+}
